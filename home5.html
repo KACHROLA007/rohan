@@ -1,0 +1,164 @@
+
+<html>
+    <style>
+        body{
+            background: #252525;
+        }
+        a{
+    text-decoration: none;
+    
+        }
+        .wrapper{
+    padding: 125px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        }
+        .services{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+        }
+        .single-img{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    width: 325px;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    transform: translate(0, 0);
+    transition: .3s;
+        }
+        .single-img:hover{
+    transform: translate(0, -9px);
+        }
+        .img-one{
+    background-image: url(1284980-black-hole-wallpaper-.jpg);
+    background-size: cover;
+    background-position: center center;
+        }
+        .img-two{
+    background-image: url(belt2.jpg);
+    background-size: cover;
+    background-position: center center;
+        }
+        .img-three{
+    background-image: url(milkyway.jpg);
+    background-size: cover;
+    background-position: center center;
+        }
+        .img-text{
+    background: linear-gradient(to top,rgba(255,255,255,0.9),rgba(255,255,255,0));
+    padding: 0 10px 5px 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    transform: translate(0, 110px);
+    line-height: 25px;
+    transition: 0.5s ease;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+        }
+        .img-text h4{
+    line-height: 15px;
+    padding: 0;
+    margin: 16px 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+        }
+        .services button{
+    background: #252525;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 50px;
+    line-height: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+        }
+        .single-img:hover .img-text{
+    transform: translate(0, 0);
+        }
+        button{
+            height: 50px;
+            border-radius: 40px;
+            background-color:black;
+            width: 100px;
+            align-items: center;
+            align-self: center;
+            align-tracks: center;
+            text-decoration-color: white;
+            color: white;
+        }
+        button:hover{
+            background-color: rgb(13, 43, 134);
+            cursor: auto;
+            
+        }
+
+@media (max-width: 991px){
+    .wrapper{
+        padding: 0;
+    }
+    .services{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        margin-bottom: 35px;
+    }
+    }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Card Hover Effect using Flexbox</title>
+    
+</head> 
+<body >
+    <div class="wrapper">
+        <div class="services">
+        
+        <A href="Black hole.html">
+            <span class="single-img img-one">
+                <span class="img-text">
+                    <h4>BLACK HOLE</h4>
+                    <p>A black hole is a region of spacetime where gravity is so strong  no particles or even electromagnetic radiation such as light can escape from it.</p>
+                    <button>explore more</button>
+                </span>
+            </span>
+        </a></A>
+        
+        <a href="belt.html">
+            <span class="single-img img-two"> 
+                <span class="img-text">
+                    <h4>ASTERIOD BELT</h4>
+                    <p>The asteroid belt is a torus-shaped region in the Solar System, located roughly between the orbits of the planets Jupiter and Mars.</p>
+                    <button>explore more</button>
+                </span>
+            </span>
+        </a>
+
+        <a href="milkyway.html">
+            <span class="single-img img-three">
+                <span class="img-text">
+                    <h4>MILKYWAY GALAXY</h4>
+                    <p>The Milky Way is the galaxy that includes our Solar System, with the name describing the galaxy's appearance from Earth. </p>
+                    <button>explore more</button>
+                </span>
+            </span>
+        </a>
+    </div>
+    </div>
+        
+    <br><br><br>
+   <pre>                                                                                            <A href="home4.html"><button>BACK</button></A>                                                                                                       
+</body>
+</html>
